@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'jawa palsu';
+    src: url('/assets/font/JAWAPALSU.ttf');
+}
+
+@font-face {
+    font-family: 'compote free';
+    src: url('/assets/font/Compote-Free.otf');
+}
+
+@font-face {
+    font-family: 'almaz demo regular';
+    src: url('/assets/font/Almaz_demo.ttf');
+}
+
+@font-face {
+    font-family: 'gotham black';
+    src: url('/assets/font/Gotham-Black.otf');
+}
+
+@font-face {
+    font-family: 'gotham bold';
+    src: url('/assets/font/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'century gothic';
+    src: url('/assets/font/GOTHIC.ttf');
+}
+
+@font-face {
+    font-family: 'century gothic bold';
+    src: url('/assets/font/gothicb.ttf');
+}
+
+@font-face {
+    font-family: 'century gothic italic';
+    src: url('/assets/font/gothici.ttf');
+}
+
+@font-face {
+    font-family: 'amita regular';
+    src: url('/assets/font/Amita-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'amita bold';
+    src: url('/assets/font/Amita-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'aclonica regular';
+    src: url('/assets/font/Aclonica-Regular.ttf');
+}
+
+body {
+    overflow: hidden;
+    background-image: url('/assets/img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'kemasyuran jawa regular';
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+span {
+    text-decoration: underline;
+}
+
+i {
+    margin-right: 5px;
+}
